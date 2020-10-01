@@ -5,6 +5,7 @@
   "license": "MIT",
   "repository": "git@github.com:westh/mastscraper.git",
   "author": "westh <haakonwesth@gmail.com>",
+  "description": "🕸 a scraper (both API and web) for https://mastedatabasen.dk",
   "scripts": {
     "start": "node index.js",
     "lint": "eslint --ignore-path .gitignore --fix .",
