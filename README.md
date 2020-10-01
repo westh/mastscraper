@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.svg" width="400">
+  <img src="logo.svg" height="130">
 </div>
 
 <div align="center">
@@ -12,7 +12,9 @@
 
 A picture says more than a thousand words, so here is a bunch of pictures in concatenation:
 
-![](how-to.gif)
+<div align="center">
+  <img src="how-to.gif">
+</div>
 
 Remember to install the damn thing before doing that :arrow_up:
 
