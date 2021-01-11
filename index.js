@@ -102,15 +102,15 @@ async function getTechnologies () {
 function initFile (technologyName, method) {
   fs.writeFileSync(
     `${OUTPUT_DIRECTORY_PATH}/${technologyName}-${method}.json`,
-    '[\n', 'utf-8'
+    '[', 'utf-8'
   )
 }
 
-function writeDataToFile (data, technologyName, method) {
+function writeDataToFile (data, technologyName, method, prependSepeartor = true) {
   data.forEach(item => {
     fs.appendFileSync(
       `${OUTPUT_DIRECTORY_PATH}/${technologyName}-${method}.json`,
-      `  ${JSON.stringify(item)},\n`,
+      `${prependSepeartor ? ',' : ''}\n  ${JSON.stringify(item)}`,
       'utf-8'
     )
   })
@@ -118,7 +118,7 @@ function writeDataToFile (data, technologyName, method) {
 
 function endFile (technologyName, method) {
   fs.appendFileSync(
-    `${OUTPUT_DIRECTORY_PATH}/${technologyName}-${method}.json`, ']\n',
+    `${OUTPUT_DIRECTORY_PATH}/${technologyName}-${method}.json`, '\n]',
     'utf-8'
   )
 }

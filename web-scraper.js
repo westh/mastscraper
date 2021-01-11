@@ -40,14 +40,21 @@ module.exports = ({
       initFile(technologiesToScrape[i].name, METHOD)
       let pageNumber = 1
       let isAnotherPageAvailable = true
+      let isFirstPage = true
 
       while (isAnotherPageAvailable) {
         await page.waitForTimeout(1000)
         observer.next(`Scraping ${technologiesToScrape[i].name}, on page ${pageNumber}`)
 
         const data = await getData(page)
+
         const isDataValid = !!data
         if (!isDataValid) return
+
+        if (isFirstPage) {
+          writeDataToFile([data.shift()], technologiesToScrape[i].name, METHOD, false)
+          isFirstPage = false
+        }
 
         writeDataToFile(data, technologiesToScrape[i].name, METHOD)
 

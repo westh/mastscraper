@@ -57,6 +57,7 @@ module.exports = ({
           `teknologi=${technologiesToScrape[i].value}&maxantal=${LIMIT}`
       ).then(response => response.json())
 
+      writeDataToFile([result.shift()], technologiesToScrape[i].name, METHOD, false)
       writeDataToFile(result.map(mast => danishToEnglishMapping(mast)), technologiesToScrape[i].name, METHOD)
 
       endFile(technologiesToScrape[i].name, METHOD)
