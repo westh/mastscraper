@@ -2,6 +2,7 @@
   "name": "@westh/mastscraper",
   "version": "1.0.0",
   "main": "index.js",
+  "bin": "./index.js",
   "license": "MIT",
   "repository": "git@github.com:westh/mastscraper.git",
   "keywords": [

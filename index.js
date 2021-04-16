@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require('fs')
 const ora = require('ora')
 const inquirer = require('inquirer')
