@@ -1,9 +1,19 @@
 {
-  "name": "mastscraper",
+  "name": "@westh/mastscraper",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "repository": "git@github.com:westh/mastscraper.git",
+  "keywords": [
+    "mastedatabasen",
+    "scrape",
+    "masts",
+    "telecom",
+    "📶",
+    "cell",
+    "cell tower",
+    "sell the cells with the cell id, but remember to add the sell id"
+  ],
   "author": "westh <haakonwesth@gmail.com>",
   "description": "🕸 a scraper (both API and web) for https://mastedatabasen.dk",
   "scripts": {
