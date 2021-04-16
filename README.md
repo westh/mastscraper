@@ -18,7 +18,11 @@ A picture says more than a thousand words, so here is a bunch of pictures in con
   <img src="how-to.gif">
 </div>
 
-Remember to install the damn thing before doing that :arrow_up:
+Remember to install the damn thing before doing that :arrow_up:. You could also just run:
+
+```
+npx @westh/mastscraper
+```
 
 ## Installation
 
