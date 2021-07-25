@@ -18,23 +18,11 @@ A picture says more than a thousand words, so here is a bunch of pictures in con
   <img src="how-to.gif">
 </div>
 
-Remember to install the damn thing before doing that :arrow_up:. You could also just run:
-
-```
-npx @westh/mastscraper
-```
+Remember to install the damn thing before doing that :arrow_up:.
 
 ## Installation
 
-In the root of the repo do this:
-
 ```
-yarn
-```
-
-Or this:
-
-```
-npm install
+npm i -g @westh/mastscraper
 ```
 
