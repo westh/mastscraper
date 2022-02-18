@@ -26,3 +26,4 @@ Remember to install the damn thing before doing that :arrow_up:.
 npm i -g @westh/mastscraper
 ```
 
+<a href="https://www.buymeacoffee.com/westh" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg" alt="Buy Me A Coffee" style="height: 40px;"></a>
